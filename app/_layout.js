@@ -7,11 +7,11 @@ export default function Layout() {
             headerTitle: "Nav Example",
             headerStyle: { backgroundColor: 'red', },
             headerTintColor: 'white',
-            headerBackVisible: false,
+            
         }}>
-            <Stack.Screen name="index" options={{ headerShown: true, }}
+            <Stack.Screen name="index" options={{ headerShown: true, headerBackVisible: false, }}
             />
-            <Stack.Screen name="page2" options={{ headerShowen: false, presentation: 'modal', }}
+            <Stack.Screen name="page2" options={{ headerShowen: false,}}
             />
         </Stack>
 

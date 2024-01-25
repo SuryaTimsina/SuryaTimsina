@@ -13,12 +13,16 @@ const styles = StyleSheet.create({
 		borderWidth: 2,
 		borderRadius: 10,
 		paddingLeft: 15,
-		margin:15,
+		margin: 15,
+
 	},
 	button: {
-		backgroundColor: 'white', 
+		backgroundColor: 'black',
 		borderRadius: 30,
-		padding: 20,
-	}
+		padding: 10,
+		marginTop: 10,
+
+	},
+
 })
 export default styles;
